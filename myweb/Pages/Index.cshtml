@@ -1,0 +1,67 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Resume-IRG";
+}
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="~/img/profile.jpeg" alt="Profile Picture" class="img-thumbnail">
+                </div>
+                <div class="col-md-9">
+                    <h1>IVAN RASCON GOMEZ</h1>
+                    <p>Project Manager and Software Developer</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-envelope"></i> ivan.rascon.4@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +52 614-148-5308</li>
+                        <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/ivanrascon4">linkedin.com/in/ivanrascon4</a></li>
+                        <li><i class="fab fa-github"></i> <a href="https://github.com/irascon">github.com/irascon</a></li>
+                        <li><i class="fas fa-globe"></i> <a href="#">thiswebsite.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Education</h2>
+                    <ul>
+                        <li><strong>System engineer</strong></li>
+                        <li>University of Universidad Autonoma de Chihuahua, 2010-2015</li>
+                    </ul>
+                    <h2>Work Experience</h2>
+                    <ul>
+                        <li><strong>Software Developer</strong></li>
+                        <li>ABC Company, 2017-present</li>
+                        <li>Developed and maintained web applications using ASP.NET Core, Angular, and SQL Server</li>
+                        <li>Collaborated with project managers and clients to gather requirements and deliver solutions on time and within budget</li>
+                        <li>Improved application performance by implementing caching, optimizing database queries, and reducing page load times</li>
+                    </ul>
+                    <ul>
+                        <li><strong>Project Manager</strong></li>
+                        <li>ABC Company, 2017-present</li>
+                        <li>Developed and maintained web applications using ASP.NET Core, Angular, and SQL Server</li>
+                        <li>Collaborated with project managers and clients to gather requirements and deliver solutions on time and within budget</li>
+                        <li>Improved application performance by implementing caching, optimizing database queries, and reducing page load times</li>
+                    </ul>
+                    <h2>Technical Skills</h2>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fab fa-html5 fa-2x"></i><br>HTML5</li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt fa-2x"></i><br>CSS3</li>
+                        <li class="list-inline-item"><i class="fab fa-js fa-2x"></i><br>JavaScript</li>
+                        <li class="list-inline-item"><i class="fab fa-angular fa-2x"></i><br>Angular</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
